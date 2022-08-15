@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000E3F;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
+.titleAndContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+p {
+  color: #ffff;
+  margin-right: 5px;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  margin-right: 5px;
+}
+
+.add {
+  color: #000E3F;
+  background-color: #ffff;
+  border-radius: 5px;
+  border: 0;
+  font-size: 12px;
+}

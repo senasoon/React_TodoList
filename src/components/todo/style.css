@@ -1,0 +1,44 @@
+.todo {
+  border: 2px solid #000E3F;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  margin: 0 5px;
+  color: #000E3F;
+  padding: 10px;
+  flex: 0 0 auto;
+}
+
+.todo > p {
+  color: #000E3F;
+  margin: 5px;
+  font-size: 12px;
+  white-space:normal;
+  word-wrap:break-word;
+  width: 190px;
+  height: 40px;
+}
+
+.todo > h3 {
+  margin: 5px;
+}
+
+.todo > .buttons > button {
+  color: #ffff;
+  background-color: #000E3F;
+  border-radius: 2px;
+  border: 0;
+  font-size: 12px;
+  margin: auto 5px;
+}
+
+.todo > .buttons > button:hover {
+  background-color: rgb(241, 241, 241);
+  color: #000E3F;
+}
+
+.todo > .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

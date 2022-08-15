@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.todo-list {
+  margin: 20px 20px 0px 20px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.box {
+  height: 150px;
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.box::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.box::-webkit-scrollbar-thumb {
+  background-color: #000E3F;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.box::-webkit-scrollbar-track {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 3px white;
+}
+
+.workingTitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.doneTitle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
