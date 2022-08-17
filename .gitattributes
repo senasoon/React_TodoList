@@ -1,0 +1,4 @@
+src/** linguist-documentation=false
+src/** linguist-vendored=false
+components/** linguist-documentation=false
+components/** linguist-vendored=false
